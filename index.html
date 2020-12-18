@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- javascripts -->
+    <!-- <script type="x-shader/x-vertex" id="vertex-shader">
+        attribute vec3 aVertexPosition;
+        uniform mat4 u_modelMatrix;
+        uniform mat4 u_viewMatrix;
+        uniform mat4 u_projectionMatrix;
+        void main(){
+            gl_Position = u_projectionMatrix * u_viewMatrix * u_modelMatrix * vec4(aVertexPosition,1.0);
+        }
+    </script>
+    <script type="x-shader/x-fragment" id="fragment-shader">
+        precision mediump float;
+        uniform vec3 uColor;
+        void main(){
+            gl_FragColor = vec4(uColor,1.0);
+        }
+    </script> -->
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/three.js"></script>
+    <script type="text/javascript" src="./js/threejs/GLTFLoader.js"></script>
+    <script type="text/javascript" src="./js/threejs/OBJLoader.js"></script>
+    <script type="text/javascript" src="./js/threejs/OrbitControls.js"></script>
+
+</head>
+<body onload='app()'>
+    <canvas id="my_canvas" width="1280" height="720"></canvas>
+</body>
+</html>
